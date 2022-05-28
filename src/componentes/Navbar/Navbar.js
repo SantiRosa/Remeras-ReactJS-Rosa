@@ -2,7 +2,7 @@ import { BsCartCheck } from 'react-icons/bs';
 import './Navbar.scss'
 import './Carrito.scss'
 
-export const Navbar = () => {
+const Navbar = () => {
     return (<header className="header">
         <div className="header_conteiner">
 
