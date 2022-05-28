@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Navbar} from './componentes/Navbar/Navbar'
+import Navbar from './componentes/Navbar/Navbar'
 import {Nosotros} from './componentes/Nosotros/Nosotros'
 import {ItemListContainer} from './componentes/ItemListContainer/ItemListContainer'
 import {Footer} from './componentes/Footer/Footer'
