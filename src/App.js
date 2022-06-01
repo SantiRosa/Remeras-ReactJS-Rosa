@@ -3,6 +3,7 @@ import Navbar from './componentes/Navbar/Navbar'
 import {Nosotros} from './componentes/Nosotros/Nosotros'
 import {ItemListContainer} from './componentes/ItemListContainer/ItemListContainer'
 import {Footer} from './componentes/Footer/Footer'
+import Counter from './componentes/contador/Contador';
 
 
 function App() {
@@ -19,6 +20,7 @@ const nombre = {
      <Navbar/>
      <Nosotros titulo={slogan.nombre} content={slogan.contenido}/>
      <ItemListContainer nombre={nombre.comprador}/>
+     <Counter/>
      <Footer/>
     </div>
   );
